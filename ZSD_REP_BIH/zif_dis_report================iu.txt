@@ -1,0 +1,8 @@
+interface ZIF_DIS_REPORT
+  public .
+
+
+  methods GET_FINAL_REPORT
+    exporting
+      value(IT_DIS) type ZSD_T_DIS_COND .
+endinterface.

@@ -1,0 +1,33 @@
+ZSD_REP_BIH                             EA000001                  TDownload Button                                             
+ZSD_REP_BIH                             EA000002                  TAnalysis Report Buttons                                     
+ZSD_REP_BIH                             EB000001              0001TDownload Button                                             
+ZSD_REP_BIH                             EB000002              0001TAnalysis Report Buttons                                     
+ZSD_REP_BIH                             ECSTANDARD                TDownload Button                                             
+ZSD_REP_BIH                             ECZSD_REP_BIH             TAnalysis Report Buttons                                     
+ZSD_REP_BIH                             EF%PC                 001 MLocal file...                                               
+ZSD_REP_BIH                             EF%SC                 001 MFind                                                        
+ZSD_REP_BIH                             EF%SC+                001 MFind next                                                   
+ZSD_REP_BIH                             EF&AVE                001 MSave layout...                                              
+ZSD_REP_BIH                             EF&CHN                001 MChange Layout                                               
+ZSD_REP_BIH                             EF&DOWN               001 IDownload Templete                                           
+ZSD_REP_BIH                             EF&DOWN               001 MTemplete/Invoicing                                          
+ZSD_REP_BIH                             EF&F03                001 MBack                                                        
+ZSD_REP_BIH                             EF&F12                001 MCancel                                                      
+ZSD_REP_BIH                             EF&F15                001 MExit                                                        
+ZSD_REP_BIH                             EF&ILD                001 MDelete Filter                                               
+ZSD_REP_BIH                             EF&ILT                001 MSet filter                                                  
+ZSD_REP_BIH                             EF&INV                001 IInvoicing                                                   
+ZSD_REP_BIH                             EF&INV                001 MInvoicing                                                   
+ZSD_REP_BIH                             EF&OAD                001 MSelect layout...                                            
+ZSD_REP_BIH                             EF&ODN                001 MSort in Decending Order                                     
+ZSD_REP_BIH                             EF&OL0                001 MChange layout...                                            
+ZSD_REP_BIH                             EF&OUP                001 MSort in Ascending Order                                     
+ZSD_REP_BIH                             EF&REP                001 ISave Report                                                 
+ZSD_REP_BIH                             EF&REP                001 MSave Report                                                 
+ZSD_REP_BIH                             EF&RNT                001 MPrint                                                       
+ZSD_REP_BIH                             EFP+                  001 MNext page                                                   
+ZSD_REP_BIH                             EFP++                 001 MLast Page                                                   
+ZSD_REP_BIH                             EFP-                  001 MPrevious Page                                               
+ZSD_REP_BIH                             EFP--                 001 MFirst Page                                                  
+ZSD_REP_BIH                             EP000001                  TDownload Button                                             
+ZSD_REP_BIH                             EP000002                  TAnalysis Report Buttons                                     

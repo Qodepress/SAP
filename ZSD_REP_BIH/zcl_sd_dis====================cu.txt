@@ -1,0 +1,12 @@
+class ZCL_SD_DIS definition
+  public
+  final
+  create public .
+
+public section.
+
+  interfaces ZIF_DIS_REPORT .
+
+  methods CONSTRUCTOR
+    importing
+      value(V_BILLING_DOCUMENT) type VBELN optional .
