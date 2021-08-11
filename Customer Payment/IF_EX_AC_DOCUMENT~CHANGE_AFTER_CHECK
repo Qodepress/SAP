@@ -1,0 +1,25 @@
+method IF_EX_AC_DOCUMENT~CHANGE_AFTER_CHECK.
+  " ADDED By sherin " 04 06 2014
+    DATA: wa_header TYPE acchd.
+  IF sy-xprog NE 'SAPMSSY1'.
+*---<SAPLBPFC> is for Posting      with BAPI: BAPI_ACC_DOCUMENT_POST
+*---<SAPCNVE > is for Posting(Tax) with BAPI: BAPI_ACC_DOCUMENT_POST
+*---<SAPMSSY1> is for Test(Check)  with BAPI: BAPI_ACC_DOCUMENT_CHECK
+    CLEAR wa_header.
+    wa_header = im_document-header.
+    ex_document-header-bktxt = wa_header-bktxt.
+    CLEAR wa_header.
+  ENDIF.
+
+" add by A.Kumar 13.07.2021
+  IF sy-tcode EQ 'ZARVTOPAY'.
+*---<SAPLBPFC> is for Posting      with BAPI: BAPI_ACC_DOCUMENT_POST
+*---<SAPCNVE > is for Posting(Tax) with BAPI: BAPI_ACC_DOCUMENT_POST
+*---<SAPMSSY1> is for Test(Check)  with BAPI: BAPI_ACC_DOCUMENT_CHECK
+    CLEAR wa_header.
+    wa_header = im_document-header.
+    ex_document-header-bktxt = wa_header-bktxt.
+    CLEAR wa_header.
+  ENDIF.
+
+endmethod.

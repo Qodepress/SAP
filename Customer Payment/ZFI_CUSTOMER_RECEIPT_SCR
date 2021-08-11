@@ -1,0 +1,13 @@
+*&---------------------------------------------------------------------*
+*& Include          ZFI_CUSTOMER_RECEIPT_SCR
+*&---------------------------------------------------------------------*
+
+SELECTION-SCREEN BEGIN OF BLOCK b1 WITH FRAME TITLE TEXT-000.
+  PARAMETERS: p_loclfn LIKE ibipparms-path OBLIGATORY
+                                 VISIBLE LENGTH 50.
+SELECTION-SCREEN END OF BLOCK b1.
+
+
+AT SELECTION-SCREEN ON VALUE-REQUEST FOR p_loclfn.
+* To provide F4 help for file name
+  PERFORM read_file_name CHANGING p_loclfn.
